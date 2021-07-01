@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+button {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    margin: 0 1ch;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item {
+    margin: 1.5ch 1.5ch;
+    display: grid;
+    grid-template-columns: 10ch 1fr;
+}
+
+.box {
+    margin: 1ch 1ch;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 5ch;
+    text-align: center;
+}
+
+.active {
+    background-color: yellow;
+}
